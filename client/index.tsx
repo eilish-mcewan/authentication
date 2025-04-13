@@ -18,11 +18,11 @@ root.render(
    * TODO: replace the empty strings below with your own domain, clientId, and audience
    */
   <Auth0Provider
-    domain=""
-    clientId=""
+    domain="tohora-eilish.au.auth0.com"
+    clientId="xyhEnqzWOfBy5sFUedCfyJ0TkN0N04Hq"
     authorizationParams={{
       redirect_uri: window.location.origin,
-      audience: '',
+      audience: 'https://fruits/api',
     }}
   >
     <QueryClientProvider client={queryClient}>
